@@ -21,6 +21,11 @@
         width: 60vw;
     }
 
+    .listening {
+        font-size: 2rem;
+        right: -10rem;
+    }
+
     .container__greeting {
         font-size: 4rem;
     }
@@ -29,8 +34,12 @@
         grid-template-columns: 13vw 1fr 13vw;
     }
 
-    .container__randomQuotes {
+    .container__randomQuotesMessage {
         font-size: 2.5rem;
+    }
+
+    .container__randomQuotesAuthor {
+        font-size: 1.5rem;
     }
 }
 
@@ -61,6 +70,11 @@
         font-size: 1.2rem;
     }
 
+    .listening {
+        font-size: 1.5rem;
+        right: -8rem;
+    }
+
     .container__greeting {
         font-size: 3.5rem;
     }
@@ -69,8 +83,12 @@
         grid-template-columns: 11vw 1fr 11vw;
     }
 
-    .container__randomQuotes {
+    .container__randomQuotesMessage {
         font-size: 2rem;
+    }
+
+    .container__randomQuotesAuthor {
+        font-size: 1.5rem;
     }
 }
 
@@ -101,6 +119,11 @@
         font-size: 1.1rem;
     }
 
+    .listening {
+        font-size: 1rem;
+        right: -5rem;
+    }
+
     .container__greeting {
         font-size: 3rem;
     }
@@ -109,7 +132,11 @@
         grid-template-columns: 9vw 1fr 9vw;
     }
 
-    .container__randomQuotes {
+    .container__randomQuotesMessage {
         font-size: 1.5rem;
+    }
+    
+    .container__randomQuotesAuthor {
+        font-size: 1rem;
     }
 }

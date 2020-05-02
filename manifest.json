@@ -1,5 +1,18 @@
 {
     "manifest_version": 2,
     "name": "chrome-extension-for-new-tab",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "This application once installed runs whenever a new tab is opened",
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "./popUp/popup.html",
+        "default_title": "Set your name here."
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

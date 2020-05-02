@@ -1,0 +1,22 @@
+const imageList = [
+    "./images/adam-kool-ndN00KmbJ1c-unsplash-min.jpg",
+    "./images/amanda-phung-1w2xsyc2wwI-unsplash-min.jpg",
+    "./images/daniil-silantev-F6Da4r2x5to-unsplash-min.jpg",
+    "./images/eberhard-grossgasteiger-pBgnT4KH8d4-unsplash-min.jpg",
+    "./images/img1.jpg",
+    "./images/img3.jpg",
+    "./images/img4.jpg",
+    "./images/img5.jpg",
+    "./images/img6.jpg",
+    "./images/jason-ortego-buF62ewDLcQ-unsplash-min.jpg",
+    "./images/lukasz-szmigiel-jFCViYFYcus-unsplash1-min.jpg",
+    "./images/lukasz-szmigiel-jFCViYFYcus-unsplash-min.jpg",
+    "./images/mark-basarab-1OtUkD_8svc-unsplash-min.jpg",
+    "./images/nik-ramzi-nik-hassan-jvMKd38zuUE-unsplash-min.jpg",
+    "./images/rural-explorer-oWS_3i0Y5sI-unsplash-min.jpg",
+    "./images/sebastian-unrau-v4e3JI7DDHI-unsplash-min.jpg",
+    "./images/sorasak-8ZAxI5FwjFo-unsplash-min.jpg",
+    // "./images/tim-swaan-eOpewngf68w-unsplash-min.jpg",
+    "./images/vincent-van-zalinge-vUNQaTtZeOo-unsplash-min.jpg",
+    "./images/wil-stewart-pHANr-CpbYM-unsplash-min.jpg"
+]

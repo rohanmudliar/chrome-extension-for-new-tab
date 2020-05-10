@@ -21,7 +21,7 @@
 - Select and upload the cloned repo.
 ---
 
-#### Reference Images: 
+#### Sample Images: 
 
 ![Image 1](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) | ![Image 2](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref2.png) 
 ------------ | --------------

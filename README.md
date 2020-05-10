@@ -7,8 +7,9 @@
 
 ![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)![](https://img.shields.io/github/repo-size/rohanmudliar/chrome-extension-for-new-tab)![](https://img.shields.io/github/last-commit/rohanmudliar/chrome-extension-for-new-tab)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-</div>
 ---
+</div>
+
 
 ### Clone:
 - Clone this repo to your local machine using `https://github.com/rohanmudliar/chrome-extension-for-new-tab.git`
@@ -22,7 +23,7 @@
 
 #### Reference Images: 
 
-![Image 1](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) | ![Image 2](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref.png) 
+![Image 1](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) | ![Image 2](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref2.png) 
 ------------ | --------------
 
 

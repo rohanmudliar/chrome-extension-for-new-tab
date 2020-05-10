@@ -26,13 +26,17 @@ const recognition = new SpeechRecognition();
 
 inputDom.addEventListener("keyup", inputClickFunctionality);
 micSearch.addEventListener('click', micClickFunctionality);
-
+/*
+* This function is used to create a random background Image.
+*/
 function renderBackground() {
     const randomImgId = Math.floor(Math.random() * imageList.length);
     container.style.background = `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${imageList[randomImgId]}) center no-repeat`;
     container.style.backgroundSize = 'cover';
 };
-
+/*
+* This function is used to get the name from the storage.
+*/
 function getDataFromStorage() {
     if (chrome.storage) {
         chrome.storage.sync.get("dataName", function (items) {
@@ -44,7 +48,9 @@ function getDataFromStorage() {
         nameDom.innerHTML = 'Stranger.';
     };
 };
-
+/*
+* This function is used to get random quote.
+*/
 function fetchRandomQuote() {
     fetch("https://type.fit/api/quotes")
         .then(function (res) {
@@ -64,8 +70,11 @@ function fetchRandomQuote() {
 const ticker = setInterval(() => {
     modelObj.timeObj = renderTime();
     renderDom();
-}, 10);
-
+}, 800);
+/*
+* This function is used to search on web.
+* @param _event is of type object. It passes the keydown event.
+*/
 function inputClickFunctionality(_event) {
     if (_event.keyCode === 13) {
         if (inputDom.value.includes('.') && !inputDom.value.includes(' ')) {
@@ -78,7 +87,9 @@ function inputClickFunctionality(_event) {
     };
     _event.preventDefault();
 };
-
+/*
+* This function is executed when clicked on mic
+*/
 function micClickFunctionality() {
     navigator.mediaDevices.getUserMedia({ audio: true })
         .then(function (stream) {
@@ -89,11 +100,15 @@ function micClickFunctionality() {
             console.log('No mic for you!')
         });
 };
-
+/*
+* This function is used to search the entered value on google.
+*/
 function SearchOnWeb(_searchValue) {
     window.open(`https://www.google.co.in/search?dcr=0&source=hp&ei=9tbAWomUA4znvAS78pTABg&q=${_searchValue}&oq=${_searchValue}&gs_l=psy-ab.3..0i131i67k1l2j0i10k1j0i67k1j0l3j0i131k1j0j0i10k1.1056.1602.0.1921.5.4.0.0.0.0.147.429.0j3.4.0....0...1.1.64.psy-ab..1.4.561.6..35i39k1.133.LgSijWYB90Y`);
 };
-
+/*
+* This function is used to render the time related dom events.
+*/
 function renderDom() {
     let { hrs, mins, sec } = modelObj.timeObj;
     timeDom.innerHTML = `${hrs}:${mins}:${sec}`;
@@ -104,6 +119,8 @@ function renderDom() {
 
     greetingDom.innerHTML = `Good ${modelObj.greetPrefix},`;
 };
+
+// SpeechRecognition code 
 
 recognition.onstart = function () {
     micSearch.classList.add('border-green');
@@ -126,8 +143,8 @@ recognition.onerror = function (event) {
 };
 
 recognition.onresult = function (event) {
-    var current = event.resultIndex;
-    var transcript = event.results[current][0].transcript;
+    let current = event.resultIndex;
+    let transcript = event.results[current][0].transcript;
     recognition.stop();
     micSearch.classList.remove('border-green');
     SearchOnWeb(transcript);

@@ -1,6 +1,6 @@
 <h1 align="center">Customized New Tab</h1>
 <p align="center">
-<img  alt="playerImg" height="128px" width="128px" src="https://raw.githubusercontent.com/rohanmudliar/music-player/master/images/logoBlack.jpg">
+<img  alt="img" height="128px" width="128px" src="https://raw.githubusercontent.com/rohanmudliar/chrome-extension-for-new-tab/master/images/logoBlack.jpg">
 </p>
 <h3 align="center">A chrome extension to replace the appearance of new tab.</h3>
 <div align="center">
@@ -22,7 +22,7 @@
 
 #### Reference Images: 
 
-![Image 1](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) | ![Image 2](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) 
+![Image 1](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref1.png) | ![Image 2](https://raw.githubusercontent.com/rohanmudliar//chrome-extension-for-new-tab/master/images/ref.png) 
 ------------ | --------------
 
 
